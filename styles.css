@@ -1,0 +1,64 @@
+body {
+  font-family: 'Roboto', sans-serif; /* Use the Roboto font */
+  margin: 0;
+  padding: 0;
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  background-color: #1d9cd6a4;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  color: #ddd;
+  text-decoration-color: #ddd;
+}
+
+article {
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+article img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  margin: 10px 0;
+}
+
+article p {
+  letter-spacing: 0.5px; /* Adjust the letter spacing as needed */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
